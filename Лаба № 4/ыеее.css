@@ -1,0 +1,31 @@
+p {
+    color: rgb(213, 163, 126);
+}
+
+tbody {
+    background-color:cadetblue
+}
+/* аоаоаоаоа */
+
+.qwerty {
+    border: 5px solid blue;
+}
+.imgddd {
+    width: 50%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+.negr{
+    height: 500px;
+}
+
+p img{
+    width: 500px;
+    float:left;
+    shape-outside: url(negr-lezhit-png-removebg-preview.png);
+}
+.ooaa{
+    padding-top: 25px;
+    border: 2px ;
+}
