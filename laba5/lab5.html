@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+
+    <h1> Вкантакте </h1>
+    <p>Я паша дурак</p>
+    <p>Я в париже</p>
+    <p>отпраьвте мне 1000 тенге что б меня не убили</p>
+
+        
+        <button  id="colorButton">Фото паши дурачка</button>
+
+        <script>
+            const button = document.getElementById('colorButton');
+            button.addEventListener('click', function () {
+                if (button.className === 'blue') {
+                    button.className = 'green';
+                } else {
+                    button.className = 'blue';
+                }
+            });
+            
+        </script>
+
+
+   
+
+</body>
+
+</html>
